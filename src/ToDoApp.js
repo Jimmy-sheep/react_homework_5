@@ -9,6 +9,7 @@ var todoItems = [];
 todoItems.push({index: 2, value: "Learn Java Script", done: true});
 todoItems.push({index: 3, value: "Learn Jquery", done: true});
 todoItems.push({index: 1, value: "Learn React", done: false});
+
 class ToDoApp extends React.Component {
 constructor (props) {
 		super(props);
